@@ -2,7 +2,7 @@
 
 Sun Mar 30 08:22:49 PDT 2021
 
-Number of lines of code:
+ Lines of code in script:
 
   20 guessinggame.sh
 
