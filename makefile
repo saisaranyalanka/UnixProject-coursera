@@ -1,22 +1,16 @@
 readme:
+   rm -f -- README.md
+   touch README.md
+   echo "#Project-Unixproject-coursera Guessing game" >> README.md
+   echo "" >> README.md
+   echo "" >> README.md
+   date >> README.md
+   echo "" >> README.md
+   echo "lines of codein script:" >> README.md
+   wc -l guessinggame.sh >> README.md
 
-if [ -f "README.md"]
- then
-   rm README.md
-fi
-touch README.md
-echo "#Project-Unixproject-coursera Guessing game#" >> README.md
-echo "" >> README.md
-echo "" >> README.md
 
-date_time=$(date)
-echo "$date_time" >> README.md
-echo "" >> README.md
-echo "" >> README.md
 
-count=$(wc -l guessinggame.sh)
-echo "code lines in the script: $count" >> README.md
-echo "" >> README.md
 
 
 
