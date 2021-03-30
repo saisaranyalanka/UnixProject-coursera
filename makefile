@@ -12,6 +12,6 @@ date_time=$(date)
 echo "date and time of makefile execution is $date_time" >> README.md
 
 count=$(wc -l guessinggame.sh)
-echo "code line count is $count" >> README.md
+echo "code lines in the script is $count" >> README.md
 echo "Done"
 
