@@ -5,7 +5,7 @@ if [ -f "README.md"]
    rm README.md
 fi
 touch README.md
-echo "Project-Unixproject-coursera Guessing game" >> README.md
+echo "#Project-Unixproject-coursera Guessing game#" >> README.md
 echo "" >> README.md
 echo "" >> README.md
 
