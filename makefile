@@ -15,7 +15,7 @@ echo "" >> README.md
 echo "" >> README.md
 
 count=$(wc -l guessinggame.sh)
-echo "code lines in the script is $count" >> README.md
+echo "code lines in the script: $count" >> README.md
 echo "" >> README.md
 
 
